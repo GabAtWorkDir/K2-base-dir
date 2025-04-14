@@ -65,7 +65,7 @@ const renderElementsAboveAndBelowTabs = () => {
 };
  
 // Function to add Google icons to the page
-renderGoogleIcons = () => {
+renderGoogleIconsAndFonts = () => {
     // Create a link element for the Google icons stylesheet and append it to the head
     const link = document.createElement('link');
     link.rel = 'stylesheet';
