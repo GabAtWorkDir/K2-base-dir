@@ -53,6 +53,16 @@ body.amo {
     font-size: 50px !important;
 }
 
+body.amo, .theme-entry.amo {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.theme-entry.amo h1,
+.theme-entry.amo .app-menu-item,
+.theme-entry.amo .runtime-form {
+    font-family: 'Montserrat', sans-serif;
+}
+
 .theme-entry.amo span .material-symbols-rounded{
 	color: var(--amo-selected-color);
 }
