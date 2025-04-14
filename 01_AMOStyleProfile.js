@@ -17,7 +17,7 @@ $(document).ready(function() {
     renderAMOMenu();                // Render the AMO menu
     registerEventTitleChanged();    // Register an event to change the document title based on the AMO banner content
     renderElementsAboveAndBelowTabs(); // Render custom elements above and below the tabs
-    renderGoogleIcons();            // Add Google icons to the page
+    renderGoogleIconsAndFonts();            // Add Google icons to the page
 });
  
 // Function to enable and apply the theme to various elements
@@ -71,4 +71,9 @@ renderGoogleIcons = () => {
     link.rel = 'stylesheet';
     link.href = 'https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200';
     document.head.appendChild(link);
+
+	const fontLink = document.createElement('link');
+	fontLink.rel = 'stylesheet';
+	fontLink.href = 'https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet';
+	document.head.appendChild(fontLink);
 }
